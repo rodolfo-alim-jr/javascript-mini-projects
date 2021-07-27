@@ -1,0 +1,35 @@
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.links-container {
+    display: flex;
+    list-style: none;
+}
+
+.links-container li {
+    padding-right: 30px;
+}
+
+
+@media(max-width: 700px) {
+    .links-container {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
