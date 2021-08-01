@@ -1,0 +1,46 @@
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #cdedf6;
+    color: #0a0908;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#btn-decrease {
+    background-color: crimson;
+    color: #fff;
+}
+
+#btn-decrease:hover {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-reset:hover {
+    background-color: #bcb8b1;
+    cursor: pointer;
+}
+
+#btn-increase {
+    background-color: #55a630;
+    color: white;
+}
+
+#btn-increase:hover {
+    background-color: #007f5f;
+    color: white;
+    cursor: pointer;
+}
